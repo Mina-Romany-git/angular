@@ -1,0 +1,128 @@
+
+div {
+    font-family: 'Arial', sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #8e44ad, #2e77a8); 
+  }
+  
+  h1 {
+    text-align: center;
+    /* background: linear-gradient(135deg, #8e44ad, #2e77a8);  */
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    /* background-color: #4CAF50; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #480354;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Edit course form */
+  div > input {
+    width: 75%;
+    margin-right: 10px;
+  }
+  
+  /* Buttons for Edit and Delete */
+  button {
+    margin-left: 10px;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  /* Styling for the cancel and save buttons */
+  button {
+    padding: 8px 15px;
+    background:  #8e44ad; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  button.Cancel {
+    background-color: #c00505;
+  }
+  
+  button.Save {
+    background-color: #2e28a7;
+  }
+  
+  /* Additional text style for 'no courses' message */
+  .no-courses {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  /* Error message for empty input field */
+  div > .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  /* Error message for server errors */
+  .error {
+    color: #D9534F;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  

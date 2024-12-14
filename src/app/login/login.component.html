@@ -1,0 +1,12 @@
+<div class ="all">
+<form (ngSubmit)="login()">
+    <label for="email">Email:</label>
+    <input type="email" id="email" [(ngModel)]="email" name="email" required />
+    <label for="password">Password:</label>
+    <input type="password" id="password" [(ngModel)]="password" name="password" required />
+    <!-- <li><a routerLink="../icourses/icourses.component.html" routerLinkActive="active-link">Login</a></li> -->
+    <button type="submit">Login</button>
+  
+    <p *ngIf="errorMessage">{{ errorMessage }}</p>
+  </form>
+  </div>
